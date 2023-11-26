@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unamerican", "unamerican\unamerican.csproj", "{F5C8E31D-BA89-4ABC-8150-B4847128A926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaseConverter", "..\CaseConverter\CaseConverter\CaseConverter.csproj", "{C4DBC8A1-58E2-489A-A9D7-8DE336DA716E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5C8E31D-BA89-4ABC-8150-B4847128A926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C8E31D-BA89-4ABC-8150-B4847128A926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C8E31D-BA89-4ABC-8150-B4847128A926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C8E31D-BA89-4ABC-8150-B4847128A926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DBC8A1-58E2-489A-A9D7-8DE336DA716E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DBC8A1-58E2-489A-A9D7-8DE336DA716E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DBC8A1-58E2-489A-A9D7-8DE336DA716E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DBC8A1-58E2-489A-A9D7-8DE336DA716E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25979481-91D1-4951-B9AE-3508F89C6513}
+	EndGlobalSection
+EndGlobal
