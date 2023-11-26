@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unamerican", "unamerican\unamerican.csproj", "{F5C8E31D-BA89-4ABC-8150-B4847128A926}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaseConverter", "..\CaseConverter\CaseConverter\CaseConverter.csproj", "{C4DBC8A1-58E2-489A-A9D7-8DE336DA716E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaseConverter", "CaseConverter\CaseConverter\CaseConverter.csproj", "{C4DBC8A1-58E2-489A-A9D7-8DE336DA716E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

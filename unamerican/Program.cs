@@ -1,4 +1,4 @@
-﻿using CommandLine;
+using CommandLine;
 using ktsu.io.CaseConverter;
 using WeCantSpell.Hunspell;
 
@@ -56,12 +56,12 @@ namespace ktsu.io.unamerican
 
 				for (int i = 0; i < linesToCheck.Count; i++)
 				{
-					var line = linesToCheck[i].Trim();
+					string line = linesToCheck[i].Trim();
 
 					//extract words from line
-					var words = line.ToMacroCase().Split('_');
+					string[] words = line.ToMacroCase().Split('_');
 
-					foreach (var word in words)
+					foreach (string word in words)
 					{
 						if (!americanDictionary.Check(word))
 						{
@@ -69,7 +69,7 @@ namespace ktsu.io.unamerican
 							{
 								if (dict.Check(word))
 								{
-									var suggestion = americanDictionary.Suggest(word).FirstOrDefault() ?? string.Empty;
+									string suggestion = americanDictionary.Suggest(word).FirstOrDefault() ?? string.Empty;
 									suggestion = suggestion.Replace(" ", "", StringComparison.Ordinal).ToUpperInvariant();
 
 									if (suggestion == word)
