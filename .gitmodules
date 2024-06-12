@@ -1,6 +1,3 @@
-[submodule "Dictionaries"]
-	path = Dictionaries
-	url = https://github.com/titoBouzout/Dictionaries.git
 [submodule "CaseConverter"]
 	path = CaseConverter
 	url = https://github.com/ktsu-io/CaseConverter.git
