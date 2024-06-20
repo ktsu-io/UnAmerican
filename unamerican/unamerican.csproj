@@ -1,4 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="ktsu.io.CaseConverter" Version="1.0.1" />
+    <PackageReference Include="WeCantSpell.Hunspell" Version="5.0.0" />
+  </ItemGroup>
   <ItemGroup>
     <None Update="English %28American%29.aff">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
